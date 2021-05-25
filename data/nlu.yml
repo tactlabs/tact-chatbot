@@ -1,0 +1,286 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: faq/custom_enc_flask
+  examples: |
+    - where can I see custom encoder in flask?
+    - where can i find custom encoder in flask?
+    - show me custom encoder in flask repo
+    - find custom encoder in flask repo
+    - how to find custom encoder in flask repo?
+    - show more about custom encoder in flask
+
+
+
+- intent: faq/microserv_samenw
+  examples: |
+    - Where can I find microsercice with same network?
+    - where can i get microsercice with same network repo?
+    - show me microsercice with same network repo
+    - find microsercice with same network repo
+    - how to find microsercice with same network repo?
+    - show more about microsercice with same network
+
+- intent: faq/hide_show_dock
+  examples: |
+    - how to hide/show dock on mac?
+    - how do i hide dock on mac?
+    - how do i show doc on mac?
+    - how can i hide/show dock on mac?
+    - show more about how to hide/show dock on mac?
+    - find how to hide/show dock on mac?
+    - show me how to hide/show dock on mac?
+
+- intent: faq/TTC
+  examples: |
+    - Where is TTC?
+    - Where is Tact Tech Component?
+    - show me where TTC is?
+    - show me where Tach Tech Component is?
+    - find where TTC is?
+    - find where Tach Tech Component is?
+
+- intent: faq/reload_nginx
+  examples: |
+    - how to relad nginx?
+    - get me results on how to reload nginx?
+    - show me how to reload nginx?
+    - find how to reload nginx?
+    - show more on how to reload nginx?
+  
+- intent: faq/repo_reaction_meter
+  examples: |
+    - Where can I find the repo for Reaction Meter?
+    - Where is the repo for Reaction Meter?
+    - Show me where is the repo for Reaction Meter?
+    - Get me results on where is the repo for Reaction Meter
+    - Find where the repository for Reaction Meter is?
+    - show more on where the repo for Reaction Meter is?
+  
+- intent: faq/ip_finder_proj
+  examples: |
+    - Where can I find ip finder project?
+    - Where is ip finder project?
+    - Show me where the ip finder project is?
+    - Get me results on where the ip finder project is
+    - Find where the ip finder project is
+    - show more on where the ip finder project is?
+
+- intent: faq/stackindex_doc
+  examples: |
+    - Where can I find StackIndex document?
+    - Where is StackIndex document?
+    - Show me where the StackIndex document is?
+    - Get me results on where the StackIndex document is
+    - Find where the StackIndex document is
+    - show more on where the StackIndex document is?
+
+- intent: faq/tactindex
+  examples: |
+    - Where can I find StackIndex document?
+    - Where is TactIndex?
+    - Show me where is TactIndex?
+    - Get me results on where the TactIndex is    
+    - Find where the TactIndex is 
+    - show more on where the TactIndex is?
+
+- intent: faq/sessions_flask
+  examples: |
+    - I want to know more about sessions in Flask.
+    - Where can i know more about sessions in Flask?
+    - Show me where i know more about sessions in Flask?
+    - Get me results on where i can find more about sessions in Flask
+    - Find where i can know more about sessions in Flask
+    - Show more on where i can find about sessions in Flask
+
+- intent: faq/access_billing
+  examples: |
+    - How to access to billing?
+    - Where can i know how to access to billing?
+    - Show me how to access to billing
+    - Get me results on how to access to billing
+    - Find me how to access to billing
+    - Show more on how to access to billing
+
+- intent: faq/youtube_download
+  examples: |
+    - Where to downlod youtube video?
+    - How can i know where to downlod youtube video?
+    - Show me where to downlod youtube video?
+    - Get me results on where to downlod youtube video
+    - Find me where to downlod youtube video
+    - Show more on where to downlod youtube video
+
+- intent: faq/s2_content_audio
+  examples: |
+    - Where are the s2 Content / S2 Audio?
+    - How can i know where the s2 Content / S2 Audio are?
+    - Show me where the s2 Content / S2 Audio are
+    - Get me results on where the s2 Content / S2 Audio are
+    - Find me where the s2 Content / S2 Audio are
+    - Show more on where the s2 Content / S2 Audio are
+
+- intent: faq/nda_doc
+  examples: |
+    - Where do I get NDA Documents?
+    - How can i know where to get NDA Documents?
+    - Show me where get NDA Documents
+    - Get me results on where to get NDA Documents
+    - Find me where to get NDA Documents
+    - Show more on where to get NDA Documents
+
+- intent: faq/wedstill_docs
+  examples: |
+    - Where are the WeDstill docs?
+    - How can i know where the WeDstill docs are?
+    - Show me where the WeDstill docs are
+    - Get me results on where the WeDstill docs are
+    - Find me where the WeDstill docs are
+    - Show more on where the WeDstill docs are
+
+- intent: faq/sqlalchemy_sqlite
+  examples: |
+    - I am looking for SQLAlchemy CRUD on SQLite
+    - How can i find SQLAlchemy CRUD on SQLite?
+    - Show me where SQLAlchemy CRUD on SQLite are
+    - Get me results on where SQLAlchemy CRUD on SQLite are
+    - Find me SQLAlchemy CRUD on SQLite
+    - Show more on where SQLAlchemy CRUD on SQLite are
+
+- intent: faq/fpr_datasets
+  examples: |
+    - Where do I get the FPR Datasets?
+    - How can i find FPR Datasets?
+    - Show me where FPR Datasets are
+    - Get me results on where FPR Datasets are
+    - Find me FPR Datasets
+    - Show more on where FPR Datasets are
+
+
+- intent: faq/eng_audio_archive
+  examples: |
+    - Where do I get English Audio Archive?
+    - How can I get English Audio Archive?
+    - Show me where I can get English Audio Archive
+    - Get me results on where I can get English Audio Archive
+    - Find me English Audio Archive
+    - Show more on where I can get English Audio Archive
+
+
+- intent: faq/npr_audio_archive
+  examples: |
+    - Where do I get NPR Audio Archive sheet?
+    - How can I get NPR Audio Archive sheet?
+    - Show me where I can NPR Audio Archive sheet
+    - Get me results on where I can get NPR Audio Archive sheet
+    - Find me NPR Audio Archive sheet
+    - Show more on where I can get NPR Audio Archive sheet?
+
+- intent: faq/install_verify
+  examples: |
+    - How to install?
+    - How to verify?
+    - Show me how to install/verify
+    - Get me results on how to install/verify
+    - Find me how to install/verify
+    - Show more on how to install/verify
+
+- intent: faq/certificate_analyzer
+  examples: |
+    - Where is Certificate analyzer?
+    - How to get Certificate analyzer?
+    - Show me where Certificate analyzer is
+    - Get me Certificate analyzer
+    - Find me Certificate analyzer
+    - Show more on where Certificate analyzer is
+
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?

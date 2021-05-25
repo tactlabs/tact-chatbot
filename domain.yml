@@ -1,0 +1,116 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - faq
+
+responses:
+  utter_greet:
+  - text: "Hey! How can I help you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_faq:
+  - text: say default
+
+  utter_faq/custom_enc_flask:
+  - text: "https://github.com/rajasgs/flask-custom-encoder"
+
+  utter_faq/microserv_samenw:
+  - text: "https://github.com/tactlabs/khemistry-deployment"
+
+  utter_faq/hide_show_dock:
+  - text: "https://www.lifewire.com/hide-or-show-mac-dock-2260724"
+
+  utter_faq/TTC:
+  - text: "https://drive.google.com/drive/u/1/folders/13IQ8ALMPcFfnA06cwRidwFVplyaSNKbG"
+  - text: "https://docs.google.com/spreadsheets/d/1YFP28xaSf6iTE6YOdPRvBDTyGnpMVtgh7oQlLkRx8bE/edit#gid=0"
+
+  utter_faq/reload_nginx:
+  - text: "sudo service nginx reload"
+
+  utter_faq/repo_reaction_meter:
+  - text: "https://github.com/tactlabs/reaction-meter"
+  - text: "https://medium.com/featurepreneur/reaction-meter-by-using-keras-and-tensorflow-4dce84a84e6c"
+
+  utter_faq/ip_finder_proj:
+  - text: "https://github.com/tactlabs/ip-finder-flask"
+  
+  utter_faq/stackindex_doc:
+  - text: "My Drive -> TACT -> Featurepreneur -> StackIndex 1.2:"
+  - text: "https://drive.google.com/drive/u/1/folders/18SIlG-kUI6f0xAjgnXOdpjalByXbYLbJ"
+
+  utter_faq/tactindex:
+  - text: "My Drive -> TACT -> Featurepreneur -> TactIndex"
+  - text: "https://drive.google.com/drive/u/1/folders/1D9wBaBzrgoEWvmemcEqmA2lGrjgk6ubS"
+  
+
+  utter_faq/sessions_flask:
+  - text: "https://github.com/tactlabs/flask-session-sample"
+
+  utter_faq/access_billing:
+  - text: "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/control-access-billing.html#ControllingAccessWebsite-Activat"
+
+  utter_faq/youtube_download:
+  - text: "https://github.com/tactlabs/yt-downloader-simple"
+
+  utter_faq/s2_content_audio:
+  - text: "SGS Backup > S2 Content:"
+  - text: "https://drive.google.com/drive/folders/1eTRtrD8VytScKxUXngvvuA_wwUV55Wc2"
+  
+  utter_faq/nda_doc:
+  - text: "You can reuse the docs of WeDstill"
+
+  utter_faq/wedstill_docs:
+  - text: "Use raja@talentaccurate.com"
+  - text: "https://na1.documents.adobe.com/public/agreements/view/CBJCHBCAABAAREy2rlTcZ9kqDABs1jqeqkcT3P_aI7lL?type=esign&tsid=CBFCIBAA3AAABLblqZhAGiuPyewAFY5XSkg7vlLpR9YIgC7WrXp3pg6zbwttWaO8Q_Pmo5xhW0JXTg041UyjRZPpvwVBwQPumWkdkPL0u"
+
+  utter_faq/sqlalchemy_sqlite:
+  - text: "https://github.com/tactlabs/sqlalchemy-crud"
+  - text: "https://github.com/tactlabs/sqlalchemy-sqlite-flask"
+  
+
+  utter_faq/fpr_datasets:
+  - text: "https://drive.google.com/drive/folders/1jLIqqGFPI04z7Hdt9lkoXpqOX4JrAdxN"
+
+  utter_faq/eng_audio_archive:
+  - text: "https://drive.google.com/drive/folders/1oxJ19j3v3r_v73GPj5qOPHfkbncfllR5"
+
+  utter_faq/npr_audio_archive:
+  - text: "https://docs.google.com/spreadsheets/d/1UjT-LYrGufF-fdU1Q0QMcgKNN14jmYAE9v5JWjGbl3Y/edit#gid=0"
+
+  utter_faq/install_verify:
+  - text: "http://wiki.tactii.com/"
+
+  utter_faq/certificate_analyzer:
+  - text: "https://drive.google.com/drive/u/0/folders/1U3CXlPNo2E1FzEfd90CCfTFEUHofLaOu"
+
+  
+  utter_deny:
+  - text: "Sorry, Kindly rephrase your query"
+
+
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
